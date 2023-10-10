@@ -1,12 +1,17 @@
 //publishing the message here
-
 import React, {useState} from "react";
+import { useAppContext } from "./hooks";
 import { newMessage } from "../state/actions";
+import Context from "../context";
 
 //parameter is props passed down
-function PublishMessage(props) {
+function PublishMessage() {
     //state varibale for the text entered by the user
-    const {dispatch} = props;
+    //const {dispatch} = props;
+
+    //use Context to get dispatch method 
+
+    const {pubsub: { publish }} = useAppContext() //you are getting the dispatch value from the concept returned!!
 
     const [text, setText] = useState('');
 
@@ -17,7 +22,7 @@ function PublishMessage(props) {
     }
 
     const publishMessage = () => {
-        dispatch(newMessage(text))
+        publish(newMessage(text))
     }
 
     //make it so that the enter key works
