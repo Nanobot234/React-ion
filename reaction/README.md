@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Reaction
+
+Post  and reply to messages with memorable reactions 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
