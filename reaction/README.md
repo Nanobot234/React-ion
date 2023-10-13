@@ -14,4 +14,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## introduction
-//explain here the project and what it does..
+React-ion is a  simple web app that allows users to post messages to a message board and comment on the messages of other users. The application uses the publisher subscriber mdoel that enables data synchroniation
