@@ -13,7 +13,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Instantly see other users' messages on the message board
 - React to posted messages using an emoji
 
-## Architecture?
 
 
 
