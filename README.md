@@ -1,6 +1,4 @@
 # React-ion
-Javascipt badge
-React+ Redux basdge= here too
 
 React app that allows users to post messages on a message feed and react to them
 
